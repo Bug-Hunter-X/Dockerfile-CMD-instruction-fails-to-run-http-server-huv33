@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles involving the CMD instruction when using python3 -m http.server. The issue arises from attempting to start the server without providing the necessary HTML files, leading to a failure to start the server. The solution involves adding an index.html file to the directory.
